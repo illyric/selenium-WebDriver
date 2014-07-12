@@ -23,12 +23,6 @@ public class GoogleSearch {
 		
 		//Search for the "Test" linkText
 		List<WebElement> resultLinks = webdriver.findElements(By.xpath("//div/a"));
-		System.out.println(resultLinks.get(0));
-
-		for (int i = 0; i < resultLinks.size(); i++) {
-			WebElement resultLink = resultLinks.get(i);
-			System.out.println("Link nr. " + (i + 1) + "is: " + resultLink);
-		}
 		
 		
 	}
