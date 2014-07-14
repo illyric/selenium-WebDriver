@@ -53,6 +53,7 @@ local.properties
 
 ### Java ###
 *.class
+.classpath
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -67,4 +68,4 @@ hs_err_pid*
 
 #ilir
 drivers/
-bin/
+bin/com/packt/webdriver/chapter1/GoogleSearch.class
