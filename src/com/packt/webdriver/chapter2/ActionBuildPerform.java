@@ -22,11 +22,10 @@ public class ActionBuildPerform {
 		driver.get("http://www.google.com");
 	}
 	
-	
+	public static WebDriver driver = new FirefoxDriver();
 	
 	
 	public static void main(String[] args){
-		WebDriver driver = new FirefoxDriver();
 		
 		driver.get("file:///C:/Users/ilirk/Desktop/8850OS_Code/Chapter%202/HTML/Selectable.html");
 		List<WebElement> elements = driver.findElements(By.tagName("li"));		
